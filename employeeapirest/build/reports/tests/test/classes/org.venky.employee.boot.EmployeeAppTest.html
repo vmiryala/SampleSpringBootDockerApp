@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.venky.employee.boot.EmployeeAppTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.venky.employee.boot.EmployeeAppTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.venky.employee.boot.html">org.venky.employee.boot</a> &gt; EmployeeAppTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.002s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2017-03-29 12:10:26.970  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.venky.employee.boot.EmployeeAppTest], using SpringBootContextLoader
+2017-03-29 12:10:26.970  INFO 17932 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.venky.employee.boot.EmployeeAppTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-03-29 12:10:26.971  INFO 17932 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.venky.employee.boot.EmployeeAppTest]: EmployeeAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-03-29 12:10:26.979  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.venky.employee.boot.EmployeeApp for test class org.venky.employee.boot.EmployeeAppTest
+2017-03-29 12:10:26.982  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-03-29 12:10:26.984  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+2017-03-29 12:10:26.985  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-03-29 12:10:26.985  INFO 17932 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b744999, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e7f6504, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7bcf8d45, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1895f320, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51e4592a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@24c65157, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23e4452f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@14dfbe80, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@67019838, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71db2166]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-03-29 12:10:27.015  INFO 17932 --- [    Test worker] org.venky.employee.boot.EmployeeAppTest  : Starting EmployeeAppTest on idx-10271 with PID 17932 (started by venky in /home/venky/development/workspaces/EmployeeRestApiG2/employeeapirest)
+2017-03-29 12:10:27.015  INFO 17932 --- [    Test worker] org.venky.employee.boot.EmployeeAppTest  : No active profile set, falling back to default profiles: default
+2017-03-29 12:10:27.018  INFO 17932 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f09e9d3: startup date [Wed Mar 29 12:10:27 CDT 2017]; root of context hierarchy
+2017-03-29 12:10:27.506  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f09e9d3: startup date [Wed Mar 29 12:10:27 CDT 2017]; root of context hierarchy
+2017-03-29 12:10:27.516  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employee/{id}]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; org.venky.employee.controller.EmployeeController.getEmployee(int)
+2017-03-29 12:10:27.516  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employee],methods=[POST]}&quot; onto public org.venky.employee.model.Employee org.venky.employee.controller.EmployeeController.addEmployee(org.venky.employee.model.Employee)
+2017-03-29 12:10:27.516  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employees]}&quot; onto public java.util.List&lt;org.venky.employee.model.Employee&gt; org.venky.employee.controller.EmployeeController.getAllEmployees()
+2017-03-29 12:10:27.516  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employee/{id}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.String&gt; org.venky.employee.controller.EmployeeController.deleteEmployee(int)
+2017-03-29 12:10:27.516  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employee/dummy]}&quot; onto public org.venky.employee.model.Employee org.venky.employee.controller.EmployeeController.getDummyEmployee()
+2017-03-29 12:10:27.517  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/employee/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.venky.employee.model.Employee&gt; org.venky.employee.controller.EmployeeController.updateEmployee(org.venky.employee.model.Employee,int)
+2017-03-29 12:10:27.518  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/hello]}&quot; onto public java.lang.String org.venky.employee.controller.HelloController.sayHi()
+2017-03-29 12:10:27.520  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-29 12:10:27.520  INFO 17932 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-29 12:10:27.535  INFO 17932 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 12:10:27.536  INFO 17932 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 12:10:27.543  INFO 17932 --- [    Test worker] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionControllerAdvice
+2017-03-29 12:10:27.553  INFO 17932 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-29 12:10:27.731  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.732  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.732  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-03-29 12:10:27.734  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-03-29 12:10:27.734  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map&lt;java.lang.String, java.lang.String&gt;)
+2017-03-29 12:10:27.734  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.735  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-03-29 12:10:27.735  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.736  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.736  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.737  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}&quot; onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-03-29 12:10:27.738  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.739  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-03-29 12:10:27.739  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.739  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.740  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-03-29 12:10:27.740  INFO 17932 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped &quot;{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-03-29 12:10:27.872  INFO 17932 --- [    Test worker] org.venky.employee.boot.EmployeeAppTest  : Started EmployeeAppTest in 0.882 seconds (JVM running for 2.86)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.1</a> at Mar 29, 2017 12:10:28 PM</p>
+</div>
+</div>
+</body>
+</html>
